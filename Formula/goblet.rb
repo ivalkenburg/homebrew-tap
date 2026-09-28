@@ -5,23 +5,23 @@ class Goblet < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ivalkenburg/goblet/releases/download/v1.0.1/goblet-darwin-arm64"
-      sha256 "9fd2da6d81e4684f82906aba1b2651b5377e4680c74832ad5f254ec74e665b0f"
+      url "https://github.com/ivalkenburg/goblet/releases/download/v1.0.2/goblet-darwin-arm64"
+      sha256 "49d8b3d16ec1e9c6805711c4e6f8e4681f066a0181695dcf75db763152cd1bd0"
     end
     on_intel do
-      url "https://github.com/ivalkenburg/goblet/releases/download/v1.0.1/goblet-darwin-amd64"
-      sha256 "9c7bd3b4ac40d1d600ec463284c621aeb30566e3e941a06496450c0031830679"
+      url "https://github.com/ivalkenburg/goblet/releases/download/v1.0.2/goblet-darwin-amd64"
+      sha256 "08590a6dde7afcd14097372e5b5a19ae2f44fa1a7089bf68863589f1d7332b9d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ivalkenburg/goblet/releases/download/v1.0.1/goblet-linux-arm64"
-      sha256 "994d774dfc560894c09482acce8eff6c7b9bf439a53df6cc6d8ef8d590b27bf1"
+      url "https://github.com/ivalkenburg/goblet/releases/download/v1.0.2/goblet-linux-arm64"
+      sha256 "a3a8e4cd11fd5c51924af4e00efdcaddc892c78b3fb2e60500e9763b2b60921d"
     end
     on_intel do
-      url "https://github.com/ivalkenburg/goblet/releases/download/v1.0.1/goblet-linux-amd64"
-      sha256 "52ee0830303626ec908ef450e6bc33ca394798efae4e2e37fa9a0b5b04f55664"
+      url "https://github.com/ivalkenburg/goblet/releases/download/v1.0.2/goblet-linux-amd64"
+      sha256 "9daa4c2dbc13c4ff1e23ef3e8114c4b404d32eefa565ab09267799c7d528100d"
     end
   end
 
