@@ -1,6 +1,6 @@
 cask "spotlite" do
-  version "0.4.0"
-  sha256 "32c3b9655ebce4084a815117ded79b7ade96e1e5b74069a09aa18e4dfb9b39d3"
+  version "0.5.0"
+  sha256 "4fdb955acddacb660bc250293b94413427492b2ce5a39d4285d3ef70fb7b375a"
 
   url "https://github.com/ivalkenburg/spotlite/releases/download/v#{version}/Spotlite-#{version}.dmg"
   name "Spotlite"
