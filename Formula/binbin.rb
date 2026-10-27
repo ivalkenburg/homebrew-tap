@@ -1,28 +1,28 @@
 class Binbin < Formula
   desc "Binbin file-sharing client"
   homepage "https://github.com/ivalkenburg/binbin"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ivalkenburg/binbin/releases/download/v0.1.0/binbin-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7248fb15a206116ac0eced52d8b927f9ab506da2415d21af7c894d5762cd80a5"
+      url "https://github.com/ivalkenburg/binbin/releases/download/v0.2.0/binbin-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2d3801e4db2e2555f63f56af6966759e9e2f67076fbc428b10c0ba1489f3882e"
     end
     on_intel do
-      url "https://github.com/ivalkenburg/binbin/releases/download/v0.1.0/binbin-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "476cd7ee76153f9003f9c08a7f61d03623b3361f923cd789019d9a374cfd995c"
+      url "https://github.com/ivalkenburg/binbin/releases/download/v0.2.0/binbin-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1ac7f050a7ab958baba85852ad7e6386f70d28319efc2bf93c386ffd95982030"
     end
   end
 
   on_linux do
     depends_on "dbus"
     on_arm do
-      url "https://github.com/ivalkenburg/binbin/releases/download/v0.1.0/binbin-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a121bfa18236eb64be95c6b54a0492940886382ecf3449a02e5d044c34070fe6"
+      url "https://github.com/ivalkenburg/binbin/releases/download/v0.2.0/binbin-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ec91c5858458a8e52dec6fa100de99bcab343028d2424aa5469514bc2f865cbf"
     end
     on_intel do
-      url "https://github.com/ivalkenburg/binbin/releases/download/v0.1.0/binbin-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0ea9b49d768c2c33c556bbe66b1b2466765bd9638e17d904694460f2d4631a80"
+      url "https://github.com/ivalkenburg/binbin/releases/download/v0.2.0/binbin-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ddfe7e5929c706e036109beba5bc514f1ea41c8bc3cb37030c724b5399e760a2"
     end
   end
 
