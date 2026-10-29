@@ -5,23 +5,23 @@ class Shlog < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.3/shlog-darwin-arm64"
-      sha256 "740f4f1d33311f804f2a0964ea56659a6b465d7cd5fa23793aa9a60740c5429f"
+      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.4/shlog-darwin-arm64"
+      sha256 "cc3a03d996aa42faee07d8d97ea641d6072ef76cc7d55a8fa13c500ac34690fc"
     end
     on_intel do
-      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.3/shlog-darwin-amd64"
-      sha256 "d31017b0a38dd60f2699acc12843b2867721ab8e43d02f86e012dbadb6431453"
+      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.4/shlog-darwin-amd64"
+      sha256 "f3e4a125e2f0d55cb5df2151a7480f174fd072bccaca3bd9378676ca1c9c39df"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.3/shlog-linux-arm64"
-      sha256 "937f99f5d57d900678da6de079976ac5e01e3f73188c9a026095e4ec0a2d141b"
+      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.4/shlog-linux-arm64"
+      sha256 "d6fa10bda49696fbbc7073a68dfb69bcb82463f47809962bfbb546d766c28673"
     end
     on_intel do
-      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.3/shlog-linux-amd64"
-      sha256 "716fbd79b0c0d451b5eb76d8e124005ea75c37f74623dc9db5fa5e1c239476ef"
+      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.4/shlog-linux-amd64"
+      sha256 "2befe534194fe286d667ddc0ffd5181c4c6e2625b5985be139559df10836f37e"
     end
   end
 
