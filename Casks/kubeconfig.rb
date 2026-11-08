@@ -1,6 +1,6 @@
 cask "kubeconfig" do
-  version "0.7.0"
-  sha256 "422d065abeee71bbc5c956ea9fbfe5ee030dfcfb18bd950c5bc008633026d7ae"
+  version "0.8.0"
+  sha256 "0a450f51f2c1afa5c4b963d4795a97b5c1603c71b585be441b838601f46238e6"
 
   url "https://github.com/ivalkenburg/kubeconfig/releases/download/v#{version}/KubeConfig-#{version}.dmg"
   name "KubeConfig"
