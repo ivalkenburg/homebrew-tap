@@ -1,27 +1,27 @@
 class Shlog < Formula
   desc "Inspect and clean up zsh, bash and fish shell history"
   homepage "https://github.com/ivalkenburg/shlog"
-  license "MIT"
+  license all_of: ["MIT", "Unicode-3.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.5/shlog-darwin-arm64"
-      sha256 "6e912abb9b32b3b90d3ab1dc719e03ef90a91dc2f09b37119949a32f31c072ed"
+      url "https://github.com/ivalkenburg/shlog/releases/download/v1.1.0/shlog-darwin-arm64"
+      sha256 "8554048109cd73ffb52a413dfa80b5b5f3be3a26d00d77dc11d7bef76aa581c0"
     end
     on_intel do
-      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.5/shlog-darwin-amd64"
-      sha256 "c48cdaa5b336f9940e3e75b390bccbefbcc9bcee2ee5d52a0429e5ec51164d7f"
+      url "https://github.com/ivalkenburg/shlog/releases/download/v1.1.0/shlog-darwin-amd64"
+      sha256 "defa53c861dda0902f9d909e7e8edc0711483e984795ae7d762bf9a77f2251f9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.5/shlog-linux-arm64"
-      sha256 "1494c975ee3830f912ada25213d49e924394eeb024e8c7b04269d75c5652ec00"
+      url "https://github.com/ivalkenburg/shlog/releases/download/v1.1.0/shlog-linux-arm64"
+      sha256 "3c098f3863e8c161a46cdbd9f2542187a0e3a074ae2df5082beb30b1cec2a786"
     end
     on_intel do
-      url "https://github.com/ivalkenburg/shlog/releases/download/v1.0.5/shlog-linux-amd64"
-      sha256 "865933874ec13027c802bbf37be96ac525c126c717e9e20b089de9f915866730"
+      url "https://github.com/ivalkenburg/shlog/releases/download/v1.1.0/shlog-linux-amd64"
+      sha256 "03b61ec610468e92b024f5bed8d60ec4f8f904726c82221f9d00fc847e88c53f"
     end
   end
 
@@ -29,13 +29,6 @@ class Shlog < Formula
     bin.install Dir["shlog-*"].first => "shlog"
     chmod 0755, bin/"shlog"
     generate_completions_from_executable(bin/"shlog", "completion")
-  end
-
-  def caveats
-    <<~EOS
-      `shlog pick` and `shlog del --pick` need fzf:
-        brew install fzf
-    EOS
   end
 
   test do
